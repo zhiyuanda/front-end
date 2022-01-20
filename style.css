@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 42px;
+    margin: 30px auto;/* 此处会层叠.w里的margin */
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+.nav {
+    float: left;
+    margin-left:60px;
+}
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    color: rgb(5,5,5);
+    font-size: 18px;
+    line-height: 42px;
+}
+.nav ul li a:hover {
+    color: rgb(0,164,255);
+    border-bottom: 2px solid rgb(0,164,255);
+}
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    background-color: yellow;
+    margin-left: 70px;
+}
+.search .input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    padding-left: 15px;
+    color: #cececf;
+    border: 1px solid rgb(0,164,255);
+    border-right: 0;
+}
+.search .btn {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(images/btn.png);
+    border: 0;
+}
+.usr {
+    float: right;
+    padding-right: 35px;
+}
+.usr img {
+    float: left;
+}
+.usr .name {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 42px;
+}
+.banner {
+    height: 422px;
+    background-color: #1c036c;
+}
+.banner .w {
+    height: 422px;
+    background: url(images/banner.png) no-repeat top center;
+}
+.subnav {
+    float: left;
+    width: 192px;
+    height: 422px;
+    background: rgba(0,0,0,.3);
+}
+.subnav li {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.subnav a {
+    font-size: 14px;
+    color: #fff;
+}
+.subnav a:hover {
+    color: rgb(0,164,255);
+}
+.subnav span {
+    float: right;
+}
+.course {
+    float: right;
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+}
+.course h4 {
+    height: 49px;
+    padding: 0 65px;
+    line-height: 49px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #9bceea;
+}
+.info {
+    height: 253px;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.info li {
+    padding: 15px 0;
+    border-bottom: 1px solid #a5a5a5;
+}
+.info1 {
+    display: block;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 700;
+}
+.info2 {
+    display: block;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.info a {
+    display: block;
+    height: 38px;
+    margin-top: 5px;
+    border: 1px solid rgb(0,164,255);
+    line-height: 38px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(0,164,255);
+}
+.goods {
+    height: 60px;
+    margin-top: 10px;
+    line-height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.goods h3 {
+    display: block;
+    margin: 0 30px 0 30px;
+    float: left;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.goods li {
+    float: left;
+}
+.goods li a {
+    padding: 0 35px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-left: 1px solid #ccc;
+}
+.mod {
+    float: right;
+    padding-right: 35px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+.box {
+    margin-top: 35px;
+    height: 598px;
+    width: 1220px;
+}
+.box .hd {
+    height: 42px;
+}
+.box .hd h2{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.box .hd a {
+    float: right;
+    margin-right: 32px; 
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 42px;
+}
+.box .bd {
+    height: 557px;
+}
+.box .bd li {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 229px;
+    height: 271px;
+    background-color: #fff;
+}
+.box .bd img {
+    width: 100%;
+}
+.box .bd h3 {
+    display: block;
+    margin: 23px 20px 18px 16px;
+    font-size: 14px;
+    color: #050505;
+}
+.box .bd p {
+    font-size: 12px;
+    color: #999999;
+}
+.box .bd p span{
+    margin-left: 23px;
+    font-size: 12px;
+    color: #ff7c2d;
+}
+/* .leftnav {
+    float: left;
+    margin-top: 389px;
+    width: 188px;
+    height: 431px;
+    background-color: pink;
+} */
+.rumen {
+    margin-top: 35px;
+    height: 436px;
+}
+.rumen .hd {
+    height: 42px;
+}
+.rumen .hd h2 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.rumen .hd .topnav {
+    float: left;
+    margin-left: 347px;
+    height: 42px;
+    line-height: 42px;
+}
+.rumen .hd .topnav li{
+    float: left;
+    margin-right: 70px;
+}
+.rumen .hd .topnav a {
+    font-size: 16px;
+    color: #868686;
+}
+.rumen .hd .topnav li .first {
+    color: #00a4ff;
+}
+.rumen .hd .chakanquanbu {
+    float: right;
+    margin-right: 32px; 
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 42px;
+}
+.rumen .box2 {
+    height: 394px;
+}
+.rumen .box2 .left {
+    float: left;
+    width: 229px;
+    height: 392px;
+}
+.rumen .box2 .right {
+    float: left;
+    width: 970px;
+    height: 392px;
+}
+.rumen .box2 .right .top {
+    float: left;
+    margin-left: 15px;
+    width: 958px;
+    height: 100px;
+}
+.rumen .box2 .under {
+    float: left;
+    margin: 22px 0 0 0;
+    width: 970px;
+    height: 270px;
+}
+.rumen .box2 .under li {
+    float: right;
+    margin-left: 13px;
+    width: 229px;
+    height: 270px;
+    background-color: #fff;
+}
+.rumen .box2 .under li img {
+    width: 100%;
+}
+.fenxi {
+    margin-top: 35px;
+    height: 436px;
+}
+.fenxi .hd {
+    height: 42px;
+}
+.fenxi .hd h2 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.fenxi .hd .topnav {
+    float: left;
+    margin-left: 347px;
+    height: 42px;
+    line-height: 42px;
+}
+.fenxi .hd .topnav li{
+    float: left;
+    margin-right: 70px;
+}
+.fenxi .hd .topnav a {
+    font-size: 16px;
+    color: #868686;
+}
+.fenxi .hd .topnav li .first {
+    color: #00a4ff;
+}
+.fenxi .hd .chakanquanbu {
+    float: right;
+    margin-right: 32px; 
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 42px;
+}
+.fenxi .box2 {
+    height: 394px;
+}
+.fenxi .box2 .left {
+    float: left;
+    width: 229px;
+    height: 392px;
+}
+.fenxi .box2 .right {
+    float: left;
+    width: 970px;
+    height: 392px;
+}
+.fenxi .box2 .right .top {
+    float: left;
+    margin-left: 15px;
+    width: 958px;
+    height: 100px;
+}
+.fenxi .box2 .under {
+    float: left;
+    margin: 22px 0 0 0;
+    width: 970px;
+    height: 270px;
+}
+.fenxi .box2 .under li {
+    float: right;
+    margin-left: 13px;
+    width: 229px;
+    height: 270px;
+    background-color: #fff;
+}
+.fenxi .box2 .under li img {
+    width: 100%;
+}
+.footer {
+    margin-top: 40px;
+    height: 418px;
+    background-color: #fff;
+}
+.footer .box {
+    height: 418px;
+}
+.footer .left {
+    float: left;
+    width: 540px;
+}
+.footer .left img{
+    margin: 34px 0 24px 20px;
+}
+.footer .left p {
+    margin: 0 0 24px 20px;
+    font-size: 12px;
+    color: #666;
+}
+.footer .left .app {
+    margin: 0 0 24px 20px;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color: #00a4ff;
+}
+.footer dl {
+    float: right;
+    margin: 35px 0 0 125px;
+    width: 94px;
+}
+.footer dt {
+    font-size: 16px;
+    color: #333;
+}
+.footer dd {
+    font-size: 12px;
+    color: #333;
+}
