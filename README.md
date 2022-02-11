@@ -13,7 +13,6 @@
 
 ![img](https://img-blog.csdnimg.cn/65e37d887c6f45f9b19ab523e0df2ee1.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAaGFjYWxpbGk=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
 # 网页GitHub地址如下：
 
