@@ -16,7 +16,7 @@
 
 # 网页GitHub地址如下：
 
-[学成在线](https://jiang-lijun.github.io/front-end/)
+https://zhiyuanda.github.io/front-end/
 
 # 代码如下：
 
